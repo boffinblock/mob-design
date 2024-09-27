@@ -1,0 +1,85 @@
+.btns:hover{
+    background-color: #327b81;
+    color: white;
+}
+
+.top-search{
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+.top-search:focus{
+    outline: none;
+    box-shadow: 0px 0px 4px #327b81 ;
+}
+.search-icon:hover{
+    color: #327b81;
+}
+
+.feeds-container {
+    overflow-x: hidden;            /* Enable horizontal scrolling */
+    overflow-y: scroll;          /* Hide vertical overflow */
+    scrollbar-width: none;       /* Hide scrollbar for Firefox */
+    scroll-behavior: smooth;
+  }
+
+.mobile-body::before{
+    content: '';
+    height: 30rem;
+    width: 30rem;
+    background-color: #deecec;
+    position: absolute;
+    top: -55%;
+    border-radius: 50%;
+    left: -90%;
+    z-index: 2;
+}
+.mobile-body::after{
+    content: '';
+    height: 15rem;
+    width: 15rem;
+    background-color: #e7f0ef;
+    position: absolute;
+    top: -20%;
+    border-radius: 50%;
+    left: 20%;
+    z-index: 1;
+}
+.register-box{
+    background-color: #fcad98;
+    background: linear-gradient(to right ,#f89973,#fcba97 );
+}
+.wand{
+    color: #f5a37b;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+.nav-btns:hover{
+    color: #327b81;
+}
+
+.jinggle-bell:hover{
+    animation: jinggle 1s linear infinite;
+}
+
+@keyframes jinggle {
+    0%{
+        transform: rotate(0deg); 
+
+    }
+    25%{
+       transform: rotate(-25deg); 
+        
+    }
+    50%{
+       transform: rotate(0deg); 
+        
+    }
+    75%{
+       transform: rotate(25deg); 
+        
+    }
+    100%{
+       transform: rotate(0deg); 
+    }
+}
