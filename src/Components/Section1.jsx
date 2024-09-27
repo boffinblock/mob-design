@@ -75,7 +75,7 @@ export const Section1 = () => {
                 <h1 className='text-[22px] m-0 p-0 text-white h-auto font-semibold tracking-[2px]'>
                   TOWN HALL
                 </h1>
-                <button className='border border-white  mt-1 text-[10px] text-white rounded-full py-1  px-3'>
+                <button className='border register-btn border-white  mt-1 text-[10px] text-white rounded-full py-1  px-3'>
                   Register Now {' >'}
                 </button>
               </div>

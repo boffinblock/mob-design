@@ -83,3 +83,7 @@
        transform: rotate(0deg); 
     }
 }
+.register-btn:hover{
+    background-color: white;
+    color: #f89973;
+}
