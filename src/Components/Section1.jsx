@@ -1,5 +1,6 @@
 import React from 'react';
 import './Section1.css';
+// all the icons
 import { GiNetworkBars } from 'react-icons/gi';
 import { IoWifiSharp } from 'react-icons/io5';
 import { IoBatteryFull } from 'react-icons/io5';
@@ -12,13 +13,17 @@ import { AiOutlineCompass } from 'react-icons/ai';
 import { IoMdAdd } from 'react-icons/io';
 import { HiOutlineDotsHorizontal } from 'react-icons/hi';
 import { GiLunarWand } from 'react-icons/gi';
+
 export const Section1 = () => {
   return (
     <>
       <div className='bg-black h-[100dvh] w-[100%] grid place-items-center  '>
+        {/* first div to make background designs */}
         <div className='mobile-body  rounded-2xl h-auto bg-white w-auto relative overflow-hidden'>
+          {/* main div start from here */}
+          {/* mobile app */}
           <div className=' z-10 w-[270px] h-[100%]  relative overflow-hidden  p-2'>
-            {/* mobile app */}
+            {/* header  */}
             <p className='h-[1rem] text-[12px] px-2 font-semibold w-full flex items-center justify-between ml-1'>
               19:20
               <div className='flex '>
@@ -39,7 +44,8 @@ export const Section1 = () => {
               </p>
               <FaBell className=' jinggle-bell text-[1.6rem]'></FaBell>
             </div>
-
+            {/* header  */}
+            {/* title  */}
             <p className='text-[#327b81]'>Hello,</p>
             <h1 className='text-[#327b81] text-3xl font-bold'>Caroline!</h1>
             <div className='w-auto h-auto relative mt-1'>
@@ -51,6 +57,7 @@ export const Section1 = () => {
               <IoIosSearch className=' search-icon absolute top-[30%] left-[3%] text-gray-400'></IoIosSearch>
             </div>
 
+            {/* need to make it scroll  */}
             <div className='scroll-container w-full flex flex-nowrap justify-between items-center h-[2rem] my-3 overflow-hidden'>
               <button className='btns mx-1 bg-[#327b81] shadow rounded-2xl px-4 text-white text-[12px] h-[80%]  whitespace-nowrap'>
                 Active Feeds
@@ -63,6 +70,7 @@ export const Section1 = () => {
               </button>
             </div>
 
+            {/* register popup */}
             <div className='register-box w-[full] h-[8rem]  rounded-xl mx-auto relative overflow-hidden'>
               <GiLunarWand className='wand absolute text-[10rem] top-[20%] right-[-5%]'></GiLunarWand>
               <div className='p-2 relative z-10'>
@@ -80,7 +88,10 @@ export const Section1 = () => {
                 </button>
               </div>
             </div>
+            {/* main feed container  */}
             <div className='feeds-container w-full'>
+              {/* all the other feilds comes here  */}
+              {/* this should be in seprate section /component */}
               <div className='feeds-item w-[full] h-[10rem]  rounded-sm mt-2 '>
                 <div className='flex gap-1 relative items-center p-2 '>
                   <img
@@ -121,6 +132,8 @@ export const Section1 = () => {
                 ></img>
               </div>
             </div>
+
+            {/* bottom Nav bar  */}
             <div className='w-full h-[3rem]  absolute left-0  bottom-0 flex items-center justify-center bg-[#e7f0ef]'>
               <IoHomeSharp className='text-[#327b81] text-[1.7rem] mx-3'></IoHomeSharp>
               <IoIosSearch className='nav-btns text-gray-400 text-[1.7rem] mx-3'></IoIosSearch>

@@ -17,9 +17,9 @@
 }
 
 .feeds-container {
-    overflow-x: hidden;            /* Enable horizontal scrolling */
-    overflow-y: scroll;          /* Hide vertical overflow */
-    scrollbar-width: none;       /* Hide scrollbar for Firefox */
+    overflow-x: hidden;        
+    overflow-y: scroll;       
+    scrollbar-width: none;      
     scroll-behavior: smooth;
   }
 
